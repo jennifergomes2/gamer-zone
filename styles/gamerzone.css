@@ -80,7 +80,7 @@ body {
     display: flex;
     width: 60%;
     background-image: url('../images/Group\ 14.png');
-    
+
 
 }
 
@@ -159,8 +159,65 @@ body {
     margin-top: 20px;
 }
 
-/* .banner-container {
-    width: 60%;
-    background-image: url('../images/Group\ 14.png');
+/* main related styles */
 
-} */
+/* online game section */
+.online-game-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-game-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.online-game-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.online-game-images {
+    display: flex;
+}
+
+.online-game-images img {
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 16px;
+    padding: 50px 40px 0px 90px;
+    
+
+}
+
+.img1{
+    margin-left: 70px;
+}
+.img2{
+    margin-left: -70px;
+}
+.img3{
+    margin-left: -70px;
+}
+.img4{
+    margin-left: -70px;
+}
+
+
+.online-game-images p {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-left: 90px;
+}
