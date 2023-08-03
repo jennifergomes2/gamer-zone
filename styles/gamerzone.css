@@ -78,19 +78,22 @@ body {
 /* banner related styles */
 .banner-container {
     display: flex;
+    width: 60%;
+    background-image: url('../images/Group\ 14.png');
     
+
 }
 
-.banner-sub-container1 {}
 
 .banner-title1 {
     color: #0B0223;
     text-align: center;
     font-size: 3rem;
+    width: 350px;
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 98px;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .banner-title2 {
@@ -152,7 +155,12 @@ body {
 .banner-sub-container2 img {
     width: 500px;
     height: 700px;
-    padding-left: 300px;
+    padding-left: 350px;
     margin-top: 20px;
 }
 
+/* .banner-container {
+    width: 60%;
+    background-image: url('../images/Group\ 14.png');
+
+} */
