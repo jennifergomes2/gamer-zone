@@ -4,8 +4,9 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Header styles */
+/* Header related styles */
 
+/* navbar related styles */
 .nav-container {
     display: flex;
     background: #FFF;
